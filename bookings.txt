@@ -1,0 +1,141 @@
+     {
+    "branch_name": "Branch A",
+    "company_name": "Company XYZ",
+    "contact_person": "John Doe",
+    "email": "john@example.com",
+    "contact_no": 1234567890,
+    "services": "Service 1, Service 2",
+    "total_amount": 5000,
+    "pan": "ABCDE1234F",
+    "gst": "22ABCDE1234F1Z5",
+    "remark": "Urgent"
+},
+{
+    "branch_name": "Branch B",
+    "company_name": "Company ABC",
+    "contact_person": "Jane Smith",
+    "email": "jane@example.com",
+    "contact_no": 2345678901,
+    "services": "Service 3, Service 4",
+    "total_amount": 6000,
+    "pan": "FGHIJ5678K",
+    "gst": "33FGHIJ5678K2Z6",
+    "remark": "Standard"
+},
+{
+    "branch_name": "Branch C",
+    "company_name": "Company DEF",
+    "contact_person": "Alice Johnson",
+    "email": "alice@example.com",
+    "contact_no": 3456789012,
+    "services": "Service 5, Service 6",
+    "total_amount": 7000,
+    "pan": "KLMNO9012P",
+    "gst": "44KLMNO9012P3Z7",
+    "remark": "Express"
+},
+{
+    "branch_name": "Branch D",
+    "company_name": "Company GHI",
+    "contact_person": "Bob Brown",
+    "email": "bob@example.com",
+    "contact_no": 4567890123,
+    "services": "Service 7, Service 8",
+    "total_amount": 8000,
+    "pan": "QRSTU3456V",
+    "gst": "55QRSTU3456V4Z8",
+    "remark": "High Priority"
+},
+{
+    "branch_name": "Branch E",
+    "company_name": "Company JKL",
+    "contact_person": "Charlie White",
+    "email": "charlie@example.com",
+    "contact_no": 5678901234,
+    "services": "Service 9, Service 10",
+    "total_amount": 9000,
+    "pan": "WXYZ7890A",
+    "gst": "66WXYZ7890A5Z9",
+    "remark": "Low Priority"
+}
+      "name":"Abc",
+      "email":"prateek@enego.co.in",
+      "password":"avc#21"
+
+   create user
+   METHOD :POST   URL : http://localhost:3000/user/
+
+   Login 
+   METHOD : POST URL : http://localhost:3000/user/Login
+
+   add Booking 
+   METHOD : POST   URL : http://localhost:3000/booking/addbooking
+
+   get bookings for user 
+   METHOD : GET URL : http://localhost:3000/user/booking/:id
+
+    get all users 
+    METHOD: GET URL : http://localhost:3000/user/all
+
+    get all bookings
+    METHOD:GET URL : http://localhost:3000/booking/all
+
+user
+
+ {
+  "name": "ABC",
+  "email": "test@gmail.com",
+  "password": "asdfg",
+  "_id": "66976a77a94027ce9ea28008",
+  "__v": 0
+ }
+
+6698d9bce92ac01f31226fd8
+
+
+Rizvan@123 Rizvan user pass of mongodb cluster 
+
+{
+    "user_id":"66c986643be7975c7bd6e47e",
+    "branch_name": "808",
+    "company_name": "ENEGO SERVICES PVT LTD",
+    "contact_person":"AMAN",
+    "email":"abc@gmail.com",
+    "contact_no":9876543234,
+    "services":"GIG",
+    "total_amount":50000,
+    "term_1":17700,
+    "term_2":0,
+    "term_3":0,
+    "term_1_payment_date":"21-06-2024",
+    "term_2_payment_date":"",
+    "term_3_payment_date":"",
+    "pan":"EGOPT9988K",
+    "gst":"2ZZLI98H",
+    "remark":"ABC"
+  }
+
+
+   // const conn = await mongoose.connect('mongodb://localhost:27017/crm');
+
+   user
+    POST booking/addbooking
+    PATCH booking/editbooking/:id
+    DELETE booking/deletebooking/:id
+    GET booking/bookings
+    GET booking/all
+    POST user/adduser
+    POST user/login
+    GET user/all
+    GET user/bookings/:id
+    GET user/bookings/booking/:id
+    GEt user/:id
+
+    Mongo_URL=mongodb+srv://rizvan:9NUfuTg3vwL3nH47@cluster0.s2yqrf5.mongodb.net/crm?retryWrites=true&w=majority&appName=Cluster0
+Local_URL=http://localhost:3000
+Production_Url=https://crm-backend-6kqk.onrender.com
+PORT=5353
+JWT_SECRET="EnegoServices@397"XF
+
+
+
